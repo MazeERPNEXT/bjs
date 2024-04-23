@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "format:{shipping_provider}-{zip}",
+ "creation": "2024-02-06 16:21:56.846791",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shipping_provider",
+  "column_break_eymb",
+  "zip",
+  "column_break_vppc",
+  "zone"
+ ],
+ "fields": [
+  {
+   "fieldname": "shipping_provider",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Shipping Provider",
+   "options": "Shipping Carrier"
+  },
+  {
+   "fieldname": "column_break_eymb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "zip",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Zip"
+  },
+  {
+   "fieldname": "column_break_vppc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "zone",
+   "fieldtype": "Int",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Transit Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-23 14:25:11.078341",
+ "modified_by": "Administrator",
+ "module": "BJs Raw Pet Food",
+ "name": "Shipping Zone Mapping",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Fulfillment User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

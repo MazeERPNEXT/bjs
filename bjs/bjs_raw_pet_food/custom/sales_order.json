@@ -1,0 +1,16 @@
+{
+    "custom_fields": [
+        {
+            "dt": "Sales Order",
+            "fieldname": "shipments",
+            "fieldtype": "Table",
+            "insert_after": "items",
+            "label": "Shipments",
+            "module": "BJs Raw Pet Food",
+            "options": "Sales Order Shipment"
+        }
+    ],
+    "property_setters": [],
+    "sync_on_migrate": 1,
+    "doctype": "Sales Order"
+}

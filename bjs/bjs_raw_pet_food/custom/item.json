@@ -1,0 +1,15 @@
+{
+    "custom_fields": [
+        {
+            "dt": "Item",
+            "fieldname": "warehouse_location",
+            "fieldtype": "Int",
+            "insert_after": "weight_uom",
+            "label": "Warehouse Location",
+            "module": "BJs Raw Pet Food"
+        }
+    ],
+    "property_setters": [],
+    "sync_on_migrate": 1,
+    "doctype": "Item"
+}

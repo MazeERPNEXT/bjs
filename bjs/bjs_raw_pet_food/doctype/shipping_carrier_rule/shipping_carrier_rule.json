@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-21 12:05:18.087962",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month_min",
+  "column_break_egil",
+  "month_max",
+  "column_break_qelp",
+  "zone_min",
+  "column_break_fyhp",
+  "zone_max",
+  "column_break_ezeo",
+  "weight_min",
+  "column_break_fixf",
+  "weight_max",
+  "column_break_ifia",
+  "service"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "month_min",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Month Min"
+  },
+  {
+   "fieldname": "column_break_egil",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "month_max",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Month Max"
+  },
+  {
+   "fieldname": "column_break_qelp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "zone_min",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Transit Time Min"
+  },
+  {
+   "fieldname": "column_break_fyhp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "zone_max",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Transit Time Max"
+  },
+  {
+   "fieldname": "column_break_ifia",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "service",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Service",
+   "options": "Shipping Service"
+  },
+  {
+   "fieldname": "column_break_ezeo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "weight_min",
+   "fieldtype": "Int",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Weight Min"
+  },
+  {
+   "fieldname": "column_break_fixf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "weight_max",
+   "fieldtype": "Int",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Weight Max"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-04 11:26:33.854629",
+ "modified_by": "Administrator",
+ "module": "BJs Raw Pet Food",
+ "name": "Shipping Carrier Rule",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

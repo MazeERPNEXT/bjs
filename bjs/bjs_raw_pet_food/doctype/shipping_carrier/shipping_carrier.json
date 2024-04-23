@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:shipping_carrier_name",
+ "creation": "2024-02-06 16:20:32.334423",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shipping_carrier_name",
+  "shipstation_carrier_code",
+  "rules"
+ ],
+ "fields": [
+  {
+   "fieldname": "shipping_carrier_name",
+   "fieldtype": "Data",
+   "label": "Shipping Carrier Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "shipstation_carrier_code",
+   "fieldtype": "Data",
+   "label": "ShipStation Carrier Code"
+  },
+  {
+   "fieldname": "rules",
+   "fieldtype": "Table",
+   "label": "Rules",
+   "options": "Shipping Carrier Rule"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-21 12:10:21.253490",
+ "modified_by": "Administrator",
+ "module": "BJs Raw Pet Food",
+ "name": "Shipping Carrier",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Fulfillment User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

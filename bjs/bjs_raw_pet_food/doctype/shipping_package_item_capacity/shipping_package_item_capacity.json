@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-19 17:10:37.562586",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_attribute",
+  "item_minimum",
+  "item_maximum"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_minimum",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Item Minimum"
+  },
+  {
+   "fieldname": "item_maximum",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Item Maximum"
+  },
+  {
+   "fieldname": "item_attribute",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Item Attribute",
+   "options": "Item Attribute Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-21 17:47:12.233623",
+ "modified_by": "Administrator",
+ "module": "BJs Raw Pet Food",
+ "name": "Shipping Package Item Capacity",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

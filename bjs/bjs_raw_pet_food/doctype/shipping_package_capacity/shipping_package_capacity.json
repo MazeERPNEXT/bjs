@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-27 11:21:29.347770",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shipping_package",
+  "capacity"
+ ],
+ "fields": [
+  {
+   "fieldname": "shipping_package",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Shipping Package",
+   "options": "Shipping Package",
+   "reqd": 1
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Table",
+   "label": "Capacity",
+   "options": "Shipping Package Capacity Quantity",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-27 11:45:19.011239",
+ "modified_by": "Administrator",
+ "module": "BJs Raw Pet Food",
+ "name": "Shipping Package Capacity",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

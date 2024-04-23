@@ -1,0 +1,172 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-19 16:11:03.296091",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "request_section",
+  "parameters_column",
+  "shipping_service",
+  "shipping_package",
+  "ship_date",
+  "weight",
+  "column_break_adhi",
+  "carrier_code",
+  "service_code",
+  "dimensions_column",
+  "units",
+  "length",
+  "width",
+  "height",
+  "response_section",
+  "create_date",
+  "column_break_hfwf",
+  "cost",
+  "column_break_kbwo",
+  "tracking_number",
+  "section_break_cuwf",
+  "label_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "shipping_package",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Package",
+   "options": "Shipping Package"
+  },
+  {
+   "fieldname": "label_data",
+   "fieldtype": "Data",
+   "label": "Label Data",
+   "length": 1000
+  },
+  {
+   "fieldname": "request_section",
+   "fieldtype": "Section Break",
+   "label": "Request"
+  },
+  {
+   "fieldname": "parameters_column",
+   "fieldtype": "Column Break",
+   "label": "Parameters"
+  },
+  {
+   "fieldname": "column_break_adhi",
+   "fieldtype": "Column Break",
+   "label": "ShipStation Codes"
+  },
+  {
+   "fieldname": "response_section",
+   "fieldtype": "Section Break",
+   "label": "Response"
+  },
+  {
+   "fieldname": "shipping_service",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Service",
+   "options": "Shipping Service"
+  },
+  {
+   "fetch_from": "shipping_service.carrier_code",
+   "fieldname": "carrier_code",
+   "fieldtype": "Read Only",
+   "label": "Carrier Code"
+  },
+  {
+   "fetch_from": "shipping_service.code",
+   "fieldname": "service_code",
+   "fieldtype": "Read Only",
+   "label": "Service Code"
+  },
+  {
+   "fieldname": "ship_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Ship Date"
+  },
+  {
+   "fieldname": "dimensions_column",
+   "fieldtype": "Column Break",
+   "label": "Dimensions"
+  },
+  {
+   "fetch_from": "shipping_package.dimensions_uom",
+   "fieldname": "units",
+   "fieldtype": "Read Only",
+   "label": "Units"
+  },
+  {
+   "fetch_from": "shipping_package.length",
+   "fieldname": "length",
+   "fieldtype": "Read Only",
+   "label": "Length"
+  },
+  {
+   "fetch_from": "shipping_package.width",
+   "fieldname": "width",
+   "fieldtype": "Read Only",
+   "label": "Width"
+  },
+  {
+   "fetch_from": "shipping_package.height",
+   "fieldname": "height",
+   "fieldtype": "Read Only",
+   "label": "Height"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "create_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Create Date"
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "label": "Cost"
+  },
+  {
+   "fieldname": "tracking_number",
+   "fieldtype": "Int",
+   "label": "Tracking Number"
+  },
+  {
+   "fieldname": "column_break_hfwf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kbwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cuwf",
+   "fieldtype": "Section Break",
+   "hide_border": 1,
+   "label": "Label"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-04 15:54:52.330894",
+ "modified_by": "Administrator",
+ "module": "BJs Raw Pet Food",
+ "name": "Sales Order Shipment",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
