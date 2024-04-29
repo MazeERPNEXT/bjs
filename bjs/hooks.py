@@ -8,3 +8,8 @@ required_apps = [
     "erpnext",
     "shipstation_integration"
 ]
+doc_events = {
+    "Sales Order": {
+        "submit": "bjs.bjs_raw_pet_food.hooks.sales_order.generate_shipments"
+    }
+}

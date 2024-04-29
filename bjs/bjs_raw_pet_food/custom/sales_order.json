@@ -2,6 +2,7 @@
     "custom_fields": [
         {
             "dt": "Sales Order",
+            "allow_on_submit": 1,
             "fieldname": "shipments",
             "fieldtype": "Table",
             "insert_after": "items",

@@ -1,0 +1,152 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"To6BhWxmv7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">BJ's</span>\",\"col\":12}},{\"id\":\"hIjXab1f-l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Orders for Shipment\",\"col\":3}},{\"id\":\"VGEj05B31L\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item Unit Management\",\"col\":3}},{\"id\":\"RKwj-Tr0QX\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Bb967lVTTi\",\"type\":\"card\",\"data\":{\"card_name\":\"Shipping Settings\",\"col\":4}},{\"id\":\"G-IV2SlISa\",\"type\":\"card\",\"data\":{\"card_name\":\"Product Management\",\"col\":4}},{\"id\":\"W9iJmWTlru\",\"type\":\"card\",\"data\":{\"card_name\":\"ShipStation Integration\",\"col\":4}}]",
+ "creation": "2024-02-07 10:55:45.461653",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "retail",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "BJ's",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipping Settings",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipping Packages",
+   "link_count": 0,
+   "link_to": "Shipping Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipping Carriers",
+   "link_count": 0,
+   "link_to": "Shipping Carrier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipping Services",
+   "link_count": 0,
+   "link_to": "Shipping Service",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipping Zone Mapping",
+   "link_count": 0,
+   "link_to": "Shipping Zone Mapping",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipping Package Capacity",
+   "link_count": 0,
+   "link_to": "Shipping Package Capacity",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ShipStation Integration",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipstation Settings",
+   "link_count": 0,
+   "link_to": "Shipstation Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Product Management",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unit Management",
+   "link_count": 0,
+   "link_to": "Unit Management",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Warehouse Location",
+   "link_count": 0,
+   "link_to": "Warehouse Location",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-04-25 11:31:48.216228",
+ "modified_by": "Administrator",
+ "module": "BJs Raw Pet Food",
+ "name": "BJ's",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Orders for Shipment",
+   "link_to": "Orders for Shipment",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Item Unit Management",
+   "link_to": "Unit Management",
+   "type": "Report"
+  }
+ ],
+ "title": "BJ's"
+}

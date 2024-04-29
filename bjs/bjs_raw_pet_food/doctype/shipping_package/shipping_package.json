@@ -22,9 +22,7 @@
   "column_break_dqbd",
   "weight_minimum",
   "column_break_yfjo",
-  "weight_capacity",
-  "item_capacity_section",
-  "item_capacities"
+  "weight_capacity"
  ],
  "fields": [
   {
@@ -119,22 +117,11 @@
   {
    "fieldname": "column_break_yfjo",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "item_capacity_section",
-   "fieldtype": "Section Break",
-   "label": "Item Capacity"
-  },
-  {
-   "fieldname": "item_capacities",
-   "fieldtype": "Table",
-   "label": "Item Capacities",
-   "options": "Shipping Package Item Capacity"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-02-19 17:12:29.164324",
+ "modified": "2024-04-24 10:29:47.669735",
  "modified_by": "Administrator",
  "module": "BJs Raw Pet Food",
  "name": "Shipping Package",
