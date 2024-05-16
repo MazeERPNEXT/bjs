@@ -5,8 +5,9 @@
     margin: 10px;
 }
 div.polaroid {
-  width: 85%;
+  width: 65%;
   padding-left: 15%;
+  height: 10%;
 }
 table{
     width:100%;
@@ -102,8 +103,22 @@ th,td{
                     <td style="width: 8%; text-align: center;"> {% if doc.get_formatted("total_qty") %}{{"{:,.0f}".format( doc.total_qty)}}{% endif %}</td>
                     <td style="width: 25%; text-align:left;"> </td>
                     <!-- <td style="text-align:left;"> </td> -->
-                    <td style="width: 15%; text-align:right;">Total : </td>
+                    <td style="width: 15%; text-align:right;">Total (USD): </td>
                     <td style="width: 15%; text-align:right;">{% if doc.get_formatted("total") %}{{"${:,.2f}".format( doc.total)}}{% endif %}</td>
+                </tr>
+                <tr style="text-align:center;" border= "1px">
+                    <td style="width: 8%; text-align: center;"> </td>
+                    <td style="width: 25%; text-align:left;"> </td>
+                    <!-- <td style="text-align:left;"> </td> -->
+                    <td style="width: 15%; text-align:right;">Total Taxes (USD): </td>
+                    <td style="width: 15%; text-align:right;">{% if doc.get_formatted("total_taxes_and_charges") %}{{"${:,.2f}".format( doc.total_taxes_and_charges)}}{% endif %}</td>
+                </tr>
+                <tr style="text-align:center;" border= "1px">
+                    <td style="width: 8%; text-align: center;"> </td>
+                    <td style="width: 25%; text-align:left;"> </td>
+                    <!-- <td style="text-align:left;"> </td> -->
+                    <td style="width: 15%; text-align:right;">Grand Total (USD) : </td>
+                    <td style="width: 15%; text-align:right;">{% if doc.get_formatted("grand_total") %}{{"${:,.2f}".format( doc.grand_total)}}{% endif %}</td>
                 </tr>
             </tfoot>
             </table>
@@ -145,7 +160,7 @@ th,td{
                            
         </td>
     </div> 
-        <td>
+        <!-- <td>
             <table style="border: none;">
                 <tr>
                     <td style="width: 100%; text-align:right;">Total (USD) : </td>
@@ -160,7 +175,7 @@ th,td{
                     <td style="width: 30%; text-align:right;">{% if doc.get_formatted("grand_total") %}{{"${:,.2f}".format( doc.grand_total)}}{% endif %}</td>
                 </tr>
             </table>
-        </td>            
+        </td>             -->
         </tr>
         </table>
         
